@@ -16,7 +16,7 @@ while True:
 
   while True:
     step += 1
-    #env.render()
+    env.render()
 
     action = agent.action(state) #agent decides action to take
     next_state, reward, done, info = env.step(action)
